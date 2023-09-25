@@ -1,0 +1,25 @@
+body{
+    font-family: "ABC Ginto Nord","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #404eed;
+}
+.navbar{
+    color: white;
+ }
+ul{
+    display:flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+li{
+    text-decoration: none;
+    list-style: none;
+  
+}
+.logo{
+    display:flex;
+     align-items: center;
+    gap: 15px;
+}
