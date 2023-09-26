@@ -1,9 +1,10 @@
 body{
-    font-family: "ABC Ginto Nord","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #404eed;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+  background-color: #404eed;
 }
 .navbar{
     color: white;
+    font-weight: 500;
  }
 ul{
     display:flex;
@@ -22,4 +23,136 @@ li{
     display:flex;
      align-items: center;
     gap: 15px;
+    margin-right: 100px;
+}
+.discord-open{
+    background-color: white;
+    border-radius: 40px;
+    color: black;
+    width: 110px;
+    height: 40px;
+    margin-left: 100px;
+}
+ 
+
+button{
+    background-color: white;
+    border-radius: 40px;
+    color: black;
+    width: 150px;
+    height:50px;
+    border: none;
+ }
+ button:hover{
+    color: blue;
+ }
+ .main{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+.main-header{
+    font-size: 50px;
+}
+.main-param{
+    font-size: 20px;
+}
+.main-bottom{
+    margin-top: 25px;
+    display:flex;
+    flex-direction: row;
+    gap: 25px;
+}
+@font-face {
+
+    font-family: "Antique";
+src: url(a.ttf);}
+.main-bottom  button{
+    width: 220px;
+    height: 50px;
+    font-size: large;
+}
+.open-discord{
+    background-color: rgb(38, 38, 38);
+    color: white;
+}
+.shoes{
+    left: -150px;
+    position: absolute;
+    bottom: 250px;
+
+}
+.game{
+    position: absolute;
+    /* right: -30px; */
+    width: 30%;
+    bottom: 250px;
+    right: 15px;
+}
+.bottom-1{
+    margin-top: 10%;
+    background-color: white;
+
+}
+.bottom-2{
+    background-color: rgb(236, 235, 235);
+}
+.bottom-3{
+    background-color: white;
+
+}
+.bottom-1 , .bottom-2 , .bottom-3{ 
+     padding: 10%;
+    display: flex;
+    flex-direction: row;
+    font-size:larger;
+    gap: 100px;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+.btm-param{
+    color: rgb(78, 78, 78);
+    line-height: 35px;
+}
+ 
+.bottom-4{
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(236, 236, 236);
+    align-items: center;
+    display: flex;
+    font-size: x-large;
+    text-align: center;
+
+}
+.antique{
+    font-family: Antique,sans-serif;
+}
+
+
+.footer{
+    background-color: white;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    font-size:larger;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer-btn{
+    background-color: #404eed;
+    color: white;
+    width: 200px;
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: large;
+
 }
